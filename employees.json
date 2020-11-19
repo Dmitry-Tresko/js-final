@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "dept_id": 3,
+        "name": "Hyman Tancock",
+        "phone": "458-522-6693",
+        "salary": 5587
+    },
+    {
+        "id": 2,
+        "dept_id": 4,
+        "name": "Jeno De Castri",
+        "phone": "375-352-8392",
+        "salary": 3971
+    },
+    {
+        "id": 3,
+        "dept_id": 4,
+        "name": "Tristan Brunone",
+        "phone": "543-312-2467",
+        "salary": 3208
+    },
+    {
+        "id": 4,
+        "dept_id": 4,
+        "name": "Kevon MacBain",
+        "phone": "771-564-9187",
+        "salary": 2012
+    },
+    {
+        "id": 5,
+        "dept_id": 5,
+        "name": "Tabitha Dumberell",
+        "phone": "393-966-0834",
+        "salary": 2085
+    },
+    {
+        "id": 6,
+        "dept_id": 5,
+        "name": "Shanda Pennoni",
+        "phone": "380-563-6362",
+        "salary": 1925
+    },
+    {
+        "id": 7,
+        "dept_id": 5,
+        "name": "Parsifal Fillary",
+        "phone": "438-292-3094",
+        "salary": 2647
+    },
+    {
+        "id": 8,
+        "dept_id": 5,
+        "name": "Blondy Maccari",
+        "phone": "265-218-5506",
+        "salary": 2536
+    },
+    {
+        "id": 9,
+        "dept_id": 6,
+        "name": "Teddie Bouzan",
+        "phone": "206-237-9078",
+        "salary": 3458
+    },
+    {
+        "id": 10,
+        "dept_id": 6,
+        "name": "Koral Tideswell",
+        "phone": "876-102-1478",
+        "salary": 3270
+    },
+    {
+        "id": 11,
+        "dept_id": 7,
+        "name": "Robby Karim",
+        "phone": "310-452-5507",
+        "salary": 4406
+    },
+    {
+        "id": 12,
+        "dept_id": 7,
+        "name": "Mandy Goeff",
+        "phone": "760-925-3479",
+        "salary": 4266
+    },
+    {
+        "id": 13,
+        "dept_id": 8,
+        "name": "Casper Alvarado",
+        "phone": "479-268-1095",
+        "salary": 2784
+    },
+    {
+        "id": 14,
+        "dept_id": 8,
+        "name": "Phillipe Ballston",
+        "phone": "871-925-4342",
+        "salary": 2248
+    },
+    {
+        "id": 15,
+        "dept_id": 8,
+        "name": "Adiana Chadwin",
+        "phone": "541-144-7711",
+        "salary": 2803
+    },
+    {
+        "id": 16,
+        "dept_id": 8,
+        "name": "Maison Burdhill",
+        "phone": "477-349-4406",
+        "salary": 1356
+    },
+    {
+        "id": 17,
+        "dept_id": 9,
+        "name": "Rosy Carden",
+        "phone": "561-733-5707",
+        "salary": 1189
+    },
+    {
+        "id": 18,
+        "dept_id": 9,
+        "name": "Lorie Shaddick",
+        "phone": "244-241-7983",
+        "salary": 1664
+    },
+    {
+        "id": 19,
+        "dept_id": 9,
+        "name": "Leo Goldsmith",
+        "phone": "953-576-4337",
+        "salary": 1090
+    },
+    {
+        "id": 20,
+        "dept_id": 9,
+        "name": "Ken Balshen",
+        "phone": "611-887-7568",
+        "salary": 1169
+    }
+]

@@ -1,0 +1,331 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
+#branch-container,
+#container-tree {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    cursor: pointer;
+}
+
+li {
+    padding: 5px;
+}
+
+span {
+    transition: all 0.25s;
+    border-bottom: 2px solid transparent;
+    margin-left: 15px;
+}
+
+span:hover {
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+}
+
+i.collapsed::before {
+    content: "•";
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled-tree-item {
+    color: whitesmoke;
+    cursor: default;
+    pointer-events: none;
+}
+
+.disabled-tree-item:hover {
+    color: whitesmoke;
+}
+
+table {
+    border: 3px solid lightseagreen;
+    font-size: 2rem;
+    margin-top: 15px;
+    outline: none;
+}
+
+td,
+th {
+    padding: 3px 5px 3px 5px;
+    border: 3px solid lightseagreen;
+    background: whitesmoke;
+    min-width: 175px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected-tree-item {
+    color: mediumblue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.selected-tree-item:hover {
+    color: mediumblue;
+    border-bottom: 2px solid mediumblue;
+}
+
+#clear-table,
+#clear-all,
+#submit-form {
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background: lightseagreen;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#edit-company {
+    padding: 10px 25px 10px 25px;
+    margin-top: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background: mediumseagreen;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.delete-btn {
+    margin: 10px 5px 10px 5px;
+    padding: 10px 17.5px 10px 17.5px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    background: white;
+    color: lightseagreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.delete-btn:hover {
+    box-shadow: 1px 1px 10px 3px black;
+}
+
+#clear-table:hover,
+#clear-all:hover,
+#submit-form:hover {
+    color: lightseagreen;
+    background: rgb(255, 255, 255, 0.8);
+    border-color: lightseagreen;
+}
+
+#edit-company:hover {
+    border: 2px solid mediumseagreen;
+    background: whitesmoke;
+    color: mediumseagreen;
+}
+
+#currency-choice {
+    padding: 10px 25px 10px 25px;
+    border: 2px solid mediumblue;
+    border-radius: 10px;
+    background: whitesmoke;
+    color: mediumblue;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+select:hover {
+    box-shadow: 1px 1px 10px 2px black;
+}
+
+.tree-content {
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+}
+
+.tree-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.table-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 77.5%;
+}
+
+.employee-name {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.employee-name:hover {
+    color: whitesmoke;
+    transition: all 0.4s;
+}
+
+.employee-name-td {
+    cursor: pointer;
+}
+
+.employee-name-td:hover {
+    background: lightseagreen;
+    transition: all 0.4s;
+    color: whitesmoke;
+}
+
+.edit-employee-content {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-link {
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+}
+
+input {
+    width: 275px;
+    padding: 12.5px 5px 12.5px 5px;
+    border: 3px solid lightseagreen;
+    border-radius: 10px;
+}
+
+.blured-salary {
+    filter: blur(6px);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.blured-salary:hover {
+    filter: none;
+}
+
+#dept-select {
+    width: 275px;
+    padding: 12.5px 5px 12.5px 5px;
+    margin-bottom: 15px;
+    border: 2px solid mediumblue;
+    border-radius: 10px;
+    background: #ffffff;
+    color: mediumblue;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.tree-edit-btns-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.edit-tree-btn {
+    margin-left: 15px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.add-tree-btn {
+    margin: 0 15px 0 15px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.delete-tree-btn {
+    background: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.delete-tree-btn::before {
+    content: "";
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    top: -12.5px;
+    background: red;
+    transform: rotate(-45deg);
+}
+
+.delete-tree-btn::after {
+    content: "";
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    top: -12.5px;
+    background: red;
+    transform: rotate(45deg);
+}
+
+.edit-tree-btn:hover,
+.add-tree-btn:hover {
+    box-shadow: 1px 1px 10px 3px black;
+}

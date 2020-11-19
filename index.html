@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-final</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="tree-content">
+            <div class="tree-buttons">
+                <button id="clear-all">Clear all</button>
+                <a href="/edit_tree.html"><button id="edit-company">Edit company</button></a>
+            </div>
+            <div id="branch-container"></div>
+        </div>
+
+        <div>
+            <div class="table-buttons">
+                <button id="clear-table">Clear Table</button>
+
+                <select id="currency-choice">
+                    <option value="BYN">BYN</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Salary</th>
+                        <th>Deletes</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="employees_doings.js"></script>
+</body>
+
+</html>

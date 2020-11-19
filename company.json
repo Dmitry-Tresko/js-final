@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "parent_id": null,
+        "name": "ABC"
+    },
+    {
+        "id": 1,
+        "parent_id": 0,
+        "name": "IT dept"
+    },
+    {
+        "id": 2,
+        "parent_id": 0,
+        "name": "QA dept"
+    },
+    {
+        "id": 3,
+        "parent_id": 1,
+        "name": "IT Head"
+    },
+    {
+        "id": 4,
+        "parent_id": 3,
+        "name": "Tech Lead"
+    },
+    {
+        "id": 5,
+        "parent_id": 4,
+        "name": "Software Engineer"
+    },
+    {
+        "id": 6,
+        "parent_id": 2,
+        "name": "QA Head"
+    },
+    {
+        "id": 7,
+        "parent_id": 6,
+        "name": "QA Lead"
+    },
+    {
+        "id": 8,
+        "parent_id": 7,
+        "name": "QA Engineer"
+    },
+    {
+        "id": 9,
+        "parent_id": 7,
+        "name": "Trainee"
+    }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-final</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="edit-employee-content">
+        <div>
+            <a href="/" class="home-link">&lt; Home</a>
+        </div>
+        <form novalidate autocomplete="off">
+            <div class="input-container">
+                <label>Name</label>
+                <input type="text" id="employee-name" name="name" required>
+            </div>
+
+            <div class="input-container">
+                <label>Phone</label>
+                <input type="tel" id="employee-phone" name="phone" required>
+            </div>
+
+            <div class="input-container">
+                <label>Salary</label>
+                <input type="number" id="employee-salary" name="salary" required>
+            </div>
+
+            <div class="input-container">
+                <label>Department</label>
+                <select id="dept-select"></select>
+            </div>
+
+            <button id="submit-form">Save info</button>
+        </form>
+    </div>
+
+    <script src="edit_employee.js"></script>
+</body>
+
+</html>
